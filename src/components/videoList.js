@@ -6,15 +6,11 @@ const videoBuilder = ({ videos, onVideoSelect }) => {
   if (!videos) {
     return <div>Loading...</div>
   }
-  const videoArr = videos.reduce((acc, video) => {
-    const videoListItem = <VideoListItem
-      key={video.etag}
-      video={video}
-      onVideoSelect={onVideoSelect}
-    />
-
-    return [...acc, videoListItem]
-  }, [])
+  const videoArr = videos.map((video) => <VideoListItem
+    key={video.etag}
+    video={video}
+    onVideoSelect={onVideoSelect}
+  />)
 
   return videoArr
 }
