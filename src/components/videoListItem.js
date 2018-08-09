@@ -2,7 +2,11 @@ import React from 'react'
 
 export default ({ video, onVideoSelect }) => {
   const {
-    thumbnails: { default: { url } },
+    thumbnails: {
+      default: {
+        url
+      }
+    },
     title
   } = video.snippet
 
