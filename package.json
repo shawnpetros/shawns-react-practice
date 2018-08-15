@@ -1,9 +1,9 @@
 {
-  "name": "shawns-react-redux-practice",
+  "name": "shawns-react-practice",
   "version": "1.0.0",
-  "description": "Simple Redux with React and Babel starter from Stephen Grider to practice with.",
+  "description": "Simple React practice.",
   "main": "index.js",
-  "repository": "git@github.com:shawnpetros/ReduxSimpleStarter.git",
+  "repository": "git@github.com:shawnpetros/shawns-react-practice.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack",
